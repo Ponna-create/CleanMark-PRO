@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - CleanMark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0e17;
+      --bg-card: #111827;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --text-bright: #f8fafc;
+      --primary: #4da6ff;
+      --border: #1e293b;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text-bright);
+      margin-bottom: 8px;
+    }
+    .date {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-bright);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    ul { margin-left: 20px; margin-bottom: 16px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      color: var(--primary);
+    }
+    strong { color: var(--text-bright); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">&larr; Back to CleanMark</a>
+
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: February 21, 2025</p>
+
+    <p>CleanMark ("we", "our", "us") is committed to protecting your privacy. This policy explains how our Chrome extension handles your data.</p>
+
+    <h2>Data Collection</h2>
+    <p><strong>We do not collect any personal data.</strong> CleanMark processes all content entirely within your browser. No data is sent to our servers or any third-party services.</p>
+
+    <h2>What CleanMark Accesses</h2>
+    <p>To function, CleanMark requires the following Chrome permissions:</p>
+    <ul>
+      <li><strong>activeTab:</strong> To read the content of the currently active tab when you click "Extract". This only activates when you explicitly use the extension.</li>
+      <li><strong>scripting:</strong> To inject the content extraction script into the active tab for markdown conversion.</li>
+      <li><strong>storage:</strong> To save your markdown content and preferences (dark mode, onboarding state) locally in Chrome's storage on your device.</li>
+      <li><strong>clipboardWrite:</strong> To copy formatted markdown to your clipboard when you use the Copy or AI Copy features.</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>All data is stored locally on your device using Chrome's built-in storage API. This includes:</p>
+    <ul>
+      <li>Your extracted markdown content (so it persists when you close/reopen the popup)</li>
+      <li>Dark mode preference</li>
+      <li>Onboarding completion state</li>
+    </ul>
+    <p>This data never leaves your browser and can be cleared at any time by using the "Clear" button or uninstalling the extension.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>CleanMark does not integrate with or send data to any third-party services, analytics platforms, or tracking tools.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not share, sell, or transfer any user data to third parties. There is no data to share because we don't collect any.</p>
+
+    <h2>Updates</h2>
+    <p>If we make changes to this privacy policy, we will update the "Last updated" date above. Continued use of CleanMark after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please contact us at <a href="mailto:ppokasoft@gmail.com">ppokasoft@gmail.com</a>.</p>
+  </div>
+</body>
+</html>
